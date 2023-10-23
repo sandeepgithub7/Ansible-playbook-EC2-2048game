@@ -11,7 +11,7 @@ pipeline {
         }
         stage('checkout'){
             steps{
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/sandeepgithub7/Ansible-playbook-EC2-2048game.git'
             }
         }
         stage('TRIVY FS SCAN') {
